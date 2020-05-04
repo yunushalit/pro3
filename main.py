@@ -4,7 +4,7 @@ from models.news import News2
 from models.news import News3
 from models import db_session
 app = Flask(__name__)
-db_session.global_init('sqlite.db')
+db_session.global_init('db/sqlite.db')
 
 
 @app.route('/')
